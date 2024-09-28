@@ -36,9 +36,9 @@ int main(){
   complex obj[5];
   obj[0].re = 34.; obj[0].im = -4.;
   obj[1].re = obj[1].im = 45.;
-  obj[2].re 33.33; obj[2].im = -45.;
+  obj[2].re = 33.33; obj[2].im = -45.;
   obj[3].re = 12.; obj[3].im = 25.;
-  obj[4].re = obj[4].im = -56.56 );
+  obj[4].re = obj[4].im = -56.56 ;
 
   double tmp1, tmp2;
   bool cambio;
