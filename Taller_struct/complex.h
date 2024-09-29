@@ -67,15 +67,15 @@ complex operator*(const complex &a, const complex &b){
 }
 
 bool operator==(const complex &a, const complex &b){
-  return (a.re == b.re) && (a.im == b.im);
+  return (magnitude(a) == magnitude(b)) or (angle(a) == angle(b));
 } // Implementar utilizando la magnitude y el angle
 
 bool operator<(const complex &a, const complex &b){
-  return magnitude(a) < magnitude(b);
+  return (magnitude(a) < magnitude(b)) or (angle(a) < angle(b));
 }  // Implementar utilizando la magnitude y el angle
 
 bool operator>(const complex &a, const complex &b){
-  return magnitude(a) > magnitude(b);
+  return (magnitude(a) < magnitude(b)) or (angle(a) < angle(b));
 }  // Implementar utilizando la magnitude y el angle
 
 
