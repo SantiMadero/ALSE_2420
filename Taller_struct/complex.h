@@ -71,11 +71,11 @@ bool operator==(const complex &a, const complex &b){
 } // Implementar utilizando la magnitude y el angle
 
 bool operator<(const complex &a, const complex &b){
-  return (magnitude(a) < magnitude(b)) or (angle(a) < angle(b));
+  return (magnitude(a) < magnitude(b));
 }  // Implementar utilizando la magnitude y el angle
 
 bool operator>(const complex &a, const complex &b){
-  return (magnitude(a) < magnitude(b)) or (angle(a) < angle(b));
+  return (magnitude(a) < magnitude(b));
 }  // Implementar utilizando la magnitude y el angle
 
 
