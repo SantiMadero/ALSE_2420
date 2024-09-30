@@ -64,4 +64,10 @@ int main(){
     cout << obj[i] << endl;
 
   return 0;
+// Este código implementa un algoritmo de ordenamiento de burbuja (bubble sort)
+// para ordenar un arreglo de objetos 'obj' de tipo 'complex'.
+// La comparación entre los objetos 'complex' usa una sobrecarga del operador '<', la cual compara las partes real e imaginaria de los números complejos.
+// Durante el ordenamiento, si los objetos no están en el orden correcto, sus partes reales ('re') e imaginarias ('im') son intercambiadas.
+// El ciclo 'do-while' continúa ejecutándose hasta que no se realicen más intercambios, lo que indica que el arreglo está completamente ordenado.
+// Posteriormente, se imprimen los elementos ordenados del arreglo en la consola.
 }
